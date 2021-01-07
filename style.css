@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(214, 12, 89);
+    font-size: 40px;
+    font-family: cursive;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color: rgb(228, 243, 14);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+body {
+    background-color: #808080;
+    background-image: url("images/bg.jpg");
+}
